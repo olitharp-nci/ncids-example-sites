@@ -2,8 +2,6 @@ const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
 const config = {
   entry: './src/index.js',
   output: {
@@ -14,7 +12,6 @@ const config = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new CleanWebpackPlugin()
   ],
   module: {
     rules: [
@@ -48,7 +45,7 @@ const config = {
             },
           },
         ]
-      }
+      },
     ]
   }
 };
