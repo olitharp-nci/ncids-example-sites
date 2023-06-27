@@ -1,4 +1,4 @@
-# simple-ncids-app
+# ncids-example-css-only
 
 Create a simple webpack app using NCIDS
 
@@ -7,7 +7,7 @@ Create a simple webpack app using NCIDS
 First install dependencies:
 
 ```sh
-npm install
+npm ci
 ```
 
 To create a production build:
@@ -20,20 +20,6 @@ To create a development build:
 
 ```sh
 npm run build-dev
-```
-
-## Running
-
-```sh
-npm run start
-```
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
 ```
 
 ## Credits
